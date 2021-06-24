@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background: linear-gradient(to right,#5d0085,#9600d6 );
+  }
+  /* Box size and border */
+.container-sm{
+  background: rgba( 255, 255, 255, 1.00 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20.0px );
+  -webkit-backdrop-filter: blur( 20.0px );
+  border-radius: 20px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+max-width: 700px;
+height: 30rem;
+}
+/* Main box */
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+/* title (first column */
+.title{
+  width: 30%;
+}
+/* Second column */
+.flex-cnt{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  font-size: large;
+}
+/* Google and Apple logo */
+.google{
+  border: 1px solid #DEDEE6;
+  padding: 0.5rem 1rem;
+  font-size: 15px;
+  cursor: pointer;
+}
+.apple{
+  border: 1px solid #DEDEE6;
+  padding: 0.5rem 1rem;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+/* Box for email */
+.emailbox{
+  border: 1px solid #DEDEE6;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 15px;
+
+}
+/* Continue button */
+.btn{
+    width: 13rem;
+    background: linear-gradient(to right,#A88FE6,#695FBA);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 5px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+
